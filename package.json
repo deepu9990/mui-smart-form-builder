@@ -1,0 +1,77 @@
+{
+  "name": "mui-smart-form-builder",
+  "version": "1.0.0",
+  "description": "A reusable React component for dynamically rendering MUI forms from JSON configuration with Formik integration",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "material-ui",
+    "mui",
+    "form",
+    "formik",
+    "form-builder",
+    "dynamic-forms",
+    "json-forms",
+    "typescript"
+  ],
+  "author": "Deepak Sharma <dsadeepak29@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepu9990/mui-smart-form-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepu9990/mui-smart-form-builder/issues"
+  },
+  "homepage": "https://github.com/deepu9990/mui-smart-form-builder#readme",
+  "peerDependencies": {
+    "@emotion/react": ">=11.0.0",
+    "@emotion/styled": ">=11.0.0",
+    "@mui/material": ">=5.0.0",
+    "formik": ">=2.0.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "@mui/x-date-pickers": {
+      "optional": true
+    },
+    "date-fns": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@mui/x-date-pickers": "^8.10.0",
+    "dayjs": "^1.11.13"
+  }
+}
