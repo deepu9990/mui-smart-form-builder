@@ -23,8 +23,6 @@ import { FieldProps } from '../types';
 import { normalizeOptions, getDisplayValue, debounce } from '../utils';
 
 import { DatePicker, TimePicker, DateTimePicker } from '@mui/x-date-pickers';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from 'dayjs';
 
 const FieldRenderer: React.FC<FieldProps> = ({
@@ -275,11 +273,7 @@ const FieldRenderer: React.FC<FieldProps> = ({
         }
       };
 
-      return (
-        <LocalizationProvider dateAdapter={AdapterDayjs}>
-          {renderDateTimePicker()}
-        </LocalizationProvider>
-      );
+      return renderDateTimePicker();
 
     case 'switch':
       return (

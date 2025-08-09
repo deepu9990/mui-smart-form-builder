@@ -13,8 +13,6 @@
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.0",
-    "@mui/x-date-pickers": "^6.10.0",
-    "date-fns": "^2.30.0",
     "formik": "^2.4.0",
     "mui-smart-form-builder": "file:..",
     "react": "^18.2.0",

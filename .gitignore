@@ -13,3 +13,6 @@ coverage/
 # Demo dependencies
 demo/node_modules/
 demo/dist/
+
+# Build output
+dist/

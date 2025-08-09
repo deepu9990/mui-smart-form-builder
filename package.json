@@ -1,6 +1,6 @@
 {
   "name": "mui-smart-form-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable React component for dynamically rendering MUI forms from JSON configuration with Formik integration",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -42,13 +42,18 @@
     "@mui/material": ">=5.0.0",
     "formik": ">=2.0.0",
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react-dom": ">=16.8.0",
+    "@mui/x-date-pickers": ">=8.10.0",
+    "dayjs": ">=1.11.13"
   },
   "peerDependenciesMeta": {
     "@mui/x-date-pickers": {
       "optional": true
     },
     "date-fns": {
+      "optional": true
+    },
+    "dayjs": {
       "optional": true
     }
   },
@@ -67,11 +72,9 @@
     "rollup": "^3.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.6.0",
-    "typescript": "^5.0.0"
-  },
-  "sideEffects": false,
-  "dependencies": {
+    "typescript": "^5.0.0",
     "@mui/x-date-pickers": "^8.10.0",
     "dayjs": "^1.11.13"
-  }
+  },
+  "sideEffects": false
 }

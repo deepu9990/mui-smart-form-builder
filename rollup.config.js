@@ -1,9 +1,13 @@
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import typescript from '@rollup/plugin-typescript';
-import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+const resolve = require('@rollup/plugin-node-resolve');
+const commonjs = require('@rollup/plugin-commonjs');
+const typescript = require('@rollup/plugin-typescript');
+const peerDepsExternal = require('rollup-plugin-peer-deps-external');
 
-export default {
+// Load peer deps dynamically
+const pkg = require('./package.json');
+const peerDeps = Object.keys(pkg.peerDependencies || {});
+
+module.exports = {
   input: 'src/index.ts',
   output: [
     {
@@ -31,5 +35,5 @@ export default {
       declarationDir: 'dist'
     })
   ],
-  external: ['react', 'react-dom', '@mui/material', '@emotion/react', '@emotion/styled', 'formik']
+  external: (id) => peerDeps.some(dep => id === dep || id.startsWith(dep + '/'))
 };
