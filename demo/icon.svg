@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+  <rect width="256" height="256" rx="48" fill="#1976D2"/>
+  <path d="M64 72h64c22.091 0 40 17.909 40 40s-17.909 40-40 40H96" stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M96 152H64" stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="96" cy="112" r="12" fill="#FFEB3B"/>
+  <circle cx="128" cy="112" r="12" fill="#FFEB3B"/>
+  <circle cx="160" cy="112" r="12" fill="#FFEB3B"/>
+  <path d="M64 184h128" stroke="#FFEB3B" stroke-width="12" stroke-linecap="round"/>
+  <text x="50%" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="white" font-weight="bold">FORM</text>
+</svg>
