@@ -1,6 +1,6 @@
 {
   "name": "mui-smart-form-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A reusable React component for dynamically rendering MUI forms from JSON configuration with Formik integration",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
