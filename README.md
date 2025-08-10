@@ -30,6 +30,16 @@ npm install @mui/material @emotion/react @emotion/styled formik
 npm install @mui/x-date-pickers dayjs
 ```
 
+> **Note**: When using date/time fields, you must wrap your app with `LocalizationProvider`:
+```tsx
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+
+<LocalizationProvider dateAdapter={AdapterDayjs}>
+  <YourApp />
+</LocalizationProvider>
+```
+
 ```bash
 npm install mui-smart-form-builder
 
@@ -39,7 +49,7 @@ npm install react react-dom @mui/material @emotion/react @emotion/styled formik
 
 For date/time pickers, also install:
 ```bash
-npm install @mui/x-date-pickers date-fns
+npm install @mui/x-date-pickers dayjs
 ```
 
 ## Quick Start
