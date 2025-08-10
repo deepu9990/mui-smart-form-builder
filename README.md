@@ -380,6 +380,14 @@ See the `/demo` folder for a complete example application showcasing all feature
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+## Demo
+
+🚀 **Live Demo**: [https://deepu9990.github.io/mui-smart-form-builder/](https://deepu9990.github.io/mui-smart-form-builder/)
+
+📦 **CodeSandbox**: [https://codesandbox.io/s/github/deepu9990/mui-smart-form-builder/tree/main/demo](https://codesandbox.io/s/github/deepu9990/mui-smart-form-builder/tree/main/demo)
+
+Try the interactive demo to see all field types and features in action!
+
 ## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
