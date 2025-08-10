@@ -347,6 +347,31 @@ const styledField = {
 
 See the `/demo` folder for a complete example application showcasing all features.
 
+## Changelog
+
+### [1.0.2] - 2025-08-10
+- **BREAKING**: Moved `@mui/x-date-pickers` and `dayjs` from dependencies to peer dependencies
+- **BREAKING**: Removed internal `LocalizationProvider` wrapper - consumers must now provide it
+- Updated documentation with LocalizationProvider setup requirements
+- Fixed build configuration to properly exclude peer dependencies
+- Added custom icon for demo application
+- Improved GitHub Pages deployment configuration
+
+### [1.0.1] - 2025-08-09
+- Cleaned up build outputs from version control
+- Added `.gitignore` for `dist/` directory
+- Improved rollup configuration for peer dependencies handling
+
+### [1.0.0] - 2025-08-09
+- Initial release
+- Complete form builder with 15+ field types
+- Formik integration
+- Material-UI components
+- TypeScript support
+- Responsive grid system
+- Custom field renderers
+- Async autocomplete search
+
 ## Contributing
 
 1. Fork the repository
@@ -359,12 +384,3 @@ See the `/demo` folder for a complete example application showcasing all feature
 
 MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Changelog
-
-### 1.0.0
-- Initial release
-- Support for 15+ field types
-- Formik integration
-- TypeScript support
-- Responsive grid layout
-- Custom rendering capabilities
