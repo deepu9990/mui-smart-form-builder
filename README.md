@@ -2,6 +2,11 @@
 
 A powerful and flexible React component for dynamically rendering Material-UI forms from JSON configuration with Formik integration.
 
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/github/deepu9990/mui-smart-form-builder/tree/main/demo)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=github)](https://deepu9990.github.io/mui-smart-form-builder/)
+[![npm version](https://img.shields.io/npm/v/mui-smart-form-builder?style=flat-square)](https://www.npmjs.com/package/mui-smart-form-builder)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 ## Features
 
 - 🎯 **Formik Integration**: Seamless integration with Formik for form state management
